@@ -702,5 +702,13 @@
   "com_ui_write": "Psát",
   "com_ui_yes": "Ano",
   "com_ui_zoom": "Přiblížit",
-  "com_user_message": "Vy"
+  "com_user_message": "Vy",
+  "com_nav_chat_color": "Barva chatu",
+  "com_nav_chat_color_default": "Výchozí",
+  "com_nav_chat_color_blue": "Modrá",
+  "com_nav_chat_color_green": "Zelená",
+  "com_nav_chat_color_yellow": "Žlutá",
+  "com_nav_chat_color_pink": "Růžová",
+  "com_nav_chat_color_orange": "Oranžová",
+  "com_nav_chat_color_purple": "Fialová"
 }

@@ -11,6 +11,7 @@ import { ScreenshotProvider, useApiErrorBoundary } from './hooks';
 import WakeLockManager from '~/components/System/WakeLockManager';
 import { getThemeFromEnv } from './utils/getThemeFromEnv';
 import { initializeFontSize } from '~/store/fontSize';
+import { initializeUserBubbleTheme } from '~/store/userBubbleTheme';
 import { LiveAnnouncer } from '~/a11y';
 import { router } from './routes';
 
@@ -39,6 +40,7 @@ const App = () => {
 
   useEffect(() => {
     initializeFontSize();
+    initializeUserBubbleTheme();
   }, []);
 
   // Load theme from environment variables if available

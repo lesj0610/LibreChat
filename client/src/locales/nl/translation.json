@@ -679,5 +679,13 @@
   "com_ui_x_selected": "{{0}} geselecteerd",
   "com_ui_yes": "Ja",
   "com_ui_zoom": "Zoom",
-  "com_user_message": "Jij"
+  "com_user_message": "Jij",
+  "com_nav_chat_color": "Chatkleur",
+  "com_nav_chat_color_default": "Standaard",
+  "com_nav_chat_color_blue": "Blauw",
+  "com_nav_chat_color_green": "Groen",
+  "com_nav_chat_color_yellow": "Geel",
+  "com_nav_chat_color_pink": "Roze",
+  "com_nav_chat_color_orange": "Oranje",
+  "com_nav_chat_color_purple": "Paars"
 }

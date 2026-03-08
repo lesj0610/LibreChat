@@ -1246,5 +1246,13 @@
   "com_ui_zoom_in": "להתקרב (זום אין)",
   "com_ui_zoom_level": "רמת זום",
   "com_ui_zoom_out": "להתרחק (זום אאוט)",
-  "com_user_message": "אתה"
+  "com_user_message": "אתה",
+  "com_nav_chat_color": "צבע הצ'אט",
+  "com_nav_chat_color_default": "ברירת מחדל",
+  "com_nav_chat_color_blue": "כחול",
+  "com_nav_chat_color_green": "ירוק",
+  "com_nav_chat_color_yellow": "צהוב",
+  "com_nav_chat_color_pink": "ורוד",
+  "com_nav_chat_color_orange": "כתום",
+  "com_nav_chat_color_purple": "סגול"
 }

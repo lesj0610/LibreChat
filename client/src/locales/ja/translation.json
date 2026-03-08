@@ -1433,5 +1433,13 @@
   "com_ui_zoom_in": "ズームイン",
   "com_ui_zoom_level": "ズームレベル",
   "com_ui_zoom_out": "ズームアウト",
-  "com_user_message": "あなた"
+  "com_user_message": "あなた",
+  "com_nav_chat_color": "チャットカラー",
+  "com_nav_chat_color_default": "デフォルト",
+  "com_nav_chat_color_blue": "ブルー",
+  "com_nav_chat_color_green": "グリーン",
+  "com_nav_chat_color_yellow": "イエロー",
+  "com_nav_chat_color_pink": "ピンク",
+  "com_nav_chat_color_orange": "オレンジ",
+  "com_nav_chat_color_purple": "パープル"
 }

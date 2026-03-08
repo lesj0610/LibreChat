@@ -1,1 +1,10 @@
-{}
+{
+  "com_nav_chat_color": "Pokalbio spalva",
+  "com_nav_chat_color_default": "Numatytoji",
+  "com_nav_chat_color_blue": "Mėlyna",
+  "com_nav_chat_color_green": "Žalia",
+  "com_nav_chat_color_yellow": "Geltona",
+  "com_nav_chat_color_pink": "Rožinė",
+  "com_nav_chat_color_orange": "Oranžinė",
+  "com_nav_chat_color_purple": "Violetinė"
+}

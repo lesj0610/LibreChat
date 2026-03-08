@@ -857,5 +857,13 @@
   "com_ui_x_selected": "{{0}} seleccionats",
   "com_ui_yes": "Sí",
   "com_ui_zoom": "Zoom",
-  "com_user_message": "Tu"
+  "com_user_message": "Tu",
+  "com_nav_chat_color": "Color del xat",
+  "com_nav_chat_color_default": "Per defecte",
+  "com_nav_chat_color_blue": "Blau",
+  "com_nav_chat_color_green": "Verd",
+  "com_nav_chat_color_yellow": "Groc",
+  "com_nav_chat_color_pink": "Rosa",
+  "com_nav_chat_color_orange": "Taronja",
+  "com_nav_chat_color_purple": "Lila"
 }

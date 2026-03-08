@@ -1,11 +1,14 @@
 import React, { useContext, useCallback } from 'react';
 import Cookies from 'js-cookie';
+import { useAtom } from 'jotai';
 import { useRecoilState } from 'recoil';
 import { Dropdown, ThemeContext } from '@librechat/client';
 import ArchivedChats from './ArchivedChats';
 import ToggleSwitch from '../ToggleSwitch';
 import { useLocalize } from '~/hooks';
+import type { Option } from '~/common';
 import store from '~/store';
+import { userBubbleThemeAtom, USER_BUBBLE_THEMES, type UserBubbleTheme } from '~/store/userBubbleTheme';
 
 const toggleSwitchConfigs = [
   {
@@ -37,6 +40,26 @@ const toggleSwitchConfigs = [
     key: 'keepScreenAwake',
   },
 ];
+
+const userBubbleThemeConfig: Record<UserBubbleTheme, { labelKey: string; swatch: string }> = {
+  default: { labelKey: 'com_nav_chat_color_default', swatch: '#a3a3a3' },
+  blue: { labelKey: 'com_nav_chat_color_blue', swatch: '#1d7df2' },
+  green: { labelKey: 'com_nav_chat_color_green', swatch: '#22c55e' },
+  yellow: { labelKey: 'com_nav_chat_color_yellow', swatch: '#eab308' },
+  pink: { labelKey: 'com_nav_chat_color_pink', swatch: '#ec4899' },
+  orange: { labelKey: 'com_nav_chat_color_orange', swatch: '#f97316' },
+  purple: { labelKey: 'com_nav_chat_color_purple', swatch: '#8b5cf6' },
+};
+
+function ColorDot({ color }: { color: string }) {
+  return (
+    <span
+      aria-hidden="true"
+      className="inline-block h-2.5 w-2.5 shrink-0 rounded-full"
+      style={{ backgroundColor: color }}
+    />
+  );
+}
 
 export const ThemeSelector = ({
   theme,
@@ -150,6 +173,46 @@ export const LangSelector = ({
   );
 };
 
+export const UserBubbleThemeSelector = ({ portal = true }: { portal?: boolean }) => {
+  const localize = useLocalize();
+  const [userBubbleTheme, setUserBubbleTheme] = useAtom(userBubbleThemeAtom);
+
+  const options = USER_BUBBLE_THEMES.map((theme) => {
+    const config = userBubbleThemeConfig[theme];
+
+    return {
+      value: theme,
+      label: localize(config.labelKey),
+      icon: <ColorDot color={config.swatch} />,
+    };
+  });
+
+  const labelId = 'user-bubble-theme-selector-label';
+
+  return (
+    <div className="flex items-center justify-between">
+      <div id={labelId}>{localize('com_nav_chat_color')}</div>
+
+      <Dropdown
+        value={userBubbleTheme}
+        onChange={(value) => setUserBubbleTheme(value as UserBubbleTheme)}
+        options={options}
+        sizeClasses="w-[180px]"
+        testId="user-bubble-theme-selector"
+        className="z-50"
+        aria-labelledby={labelId}
+        portal={portal}
+        renderValue={(option: Option) => (
+          <span className="inline-flex items-center gap-2">
+            {'icon' in option && option.icon != null && <span>{option.icon as React.ReactNode}</span>}
+            <span>{option.label as string}</span>
+          </span>
+        )}
+      />
+    </div>
+  );
+};
+
 function General() {
   const { theme, setTheme } = useContext(ThemeContext);
 
@@ -182,6 +245,9 @@ function General() {
     <div className="flex flex-col gap-3 p-1 text-sm text-text-primary">
       <div className="pb-3">
         <ThemeSelector theme={theme} onChange={changeTheme} />
+      </div>
+      <div className="pb-3">
+        <UserBubbleThemeSelector />
       </div>
       <div className="pb-3">
         <LangSelector langcode={langcode} onChange={changeLang} />

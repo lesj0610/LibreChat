@@ -918,5 +918,13 @@
   "com_ui_x_selected": "{{0}} valitud",
   "com_ui_yes": "Jah",
   "com_ui_zoom": "Suumi",
-  "com_user_message": "Sina"
+  "com_user_message": "Sina",
+  "com_nav_chat_color": "Vestluse värv",
+  "com_nav_chat_color_default": "Vaikimisi",
+  "com_nav_chat_color_blue": "Sinine",
+  "com_nav_chat_color_green": "Roheline",
+  "com_nav_chat_color_yellow": "Kollane",
+  "com_nav_chat_color_pink": "Roosa",
+  "com_nav_chat_color_orange": "Oranž",
+  "com_nav_chat_color_purple": "Lilla"
 }

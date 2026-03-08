@@ -1516,5 +1516,13 @@
   "com_ui_zoom_in": "Heranzoomen",
   "com_ui_zoom_level": "Zoomstufe",
   "com_ui_zoom_out": "Herauszoomen",
-  "com_user_message": "Du"
+  "com_user_message": "Du",
+  "com_nav_chat_color": "Chatfarbe",
+  "com_nav_chat_color_default": "Standard",
+  "com_nav_chat_color_blue": "Blau",
+  "com_nav_chat_color_green": "Grün",
+  "com_nav_chat_color_yellow": "Gelb",
+  "com_nav_chat_color_pink": "Pink",
+  "com_nav_chat_color_orange": "Orange",
+  "com_nav_chat_color_purple": "Lila"
 }

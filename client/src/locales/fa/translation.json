@@ -801,5 +801,13 @@
   "com_ui_write": "نوشتن",
   "com_ui_yes": "بله",
   "com_ui_zoom": "بزرگنمایی ضربه بزنید؛",
-  "com_user_message": "شما"
+  "com_user_message": "شما",
+  "com_nav_chat_color": "رنگ چت",
+  "com_nav_chat_color_default": "پیش‌فرض",
+  "com_nav_chat_color_blue": "آبی",
+  "com_nav_chat_color_green": "سبز",
+  "com_nav_chat_color_yellow": "زرد",
+  "com_nav_chat_color_pink": "صورتی",
+  "com_nav_chat_color_orange": "نارنجی",
+  "com_nav_chat_color_purple": "بنفش"
 }

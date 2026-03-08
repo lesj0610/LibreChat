@@ -189,5 +189,13 @@
   "com_ui_upload_type": "Ընտրեք ներբեռնելու տիպը",
   "com_ui_write": "Գրում է",
   "com_ui_yes": "Այո",
-  "com_user_message": "Դու"
+  "com_user_message": "Դու",
+  "com_nav_chat_color": "Զրույցի գույն",
+  "com_nav_chat_color_default": "Լռելյայն",
+  "com_nav_chat_color_blue": "Կապույտ",
+  "com_nav_chat_color_green": "Կանաչ",
+  "com_nav_chat_color_yellow": "Դեղին",
+  "com_nav_chat_color_pink": "Վարդագույն",
+  "com_nav_chat_color_orange": "Նարնջագույն",
+  "com_nav_chat_color_purple": "Մանուշակագույն"
 }

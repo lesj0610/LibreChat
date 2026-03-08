@@ -61,5 +61,13 @@
   "com_nav_lang_traditional_chinese": "ჩინური ტრადიციული",
   "com_nav_lang_turkish": "თურქული",
   "com_nav_lang_vietnamese": "ვიეტნამური",
-  "com_nav_language": "ენა"
+  "com_nav_language": "ენა",
+  "com_nav_chat_color": "ჩატის ფერი",
+  "com_nav_chat_color_default": "ნაგულისხმევი",
+  "com_nav_chat_color_blue": "ლურჯი",
+  "com_nav_chat_color_green": "მწვანე",
+  "com_nav_chat_color_yellow": "ყვითელი",
+  "com_nav_chat_color_pink": "ვარდისფერი",
+  "com_nav_chat_color_orange": "ნარინჯისფერი",
+  "com_nav_chat_color_purple": "იისფერი"
 }

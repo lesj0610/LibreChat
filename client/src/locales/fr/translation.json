@@ -1255,5 +1255,13 @@
   "com_ui_zoom": "Zoom",
   "com_ui_zoom_in": "Zoomer",
   "com_ui_zoom_out": "Dézoomer",
-  "com_user_message": "Vous"
+  "com_user_message": "Vous",
+  "com_nav_chat_color": "Couleur du chat",
+  "com_nav_chat_color_default": "Par défaut",
+  "com_nav_chat_color_blue": "Bleu",
+  "com_nav_chat_color_green": "Vert",
+  "com_nav_chat_color_yellow": "Jaune",
+  "com_nav_chat_color_pink": "Rose",
+  "com_nav_chat_color_orange": "Orange",
+  "com_nav_chat_color_purple": "Violet"
 }

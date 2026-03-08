@@ -695,5 +695,13 @@
   "com_ui_versions": "Sürümler",
   "com_ui_yes": "Evet",
   "com_ui_zoom": "Yakınlaştır",
-  "com_user_message": "Sen"
+  "com_user_message": "Sen",
+  "com_nav_chat_color": "Sohbet rengi",
+  "com_nav_chat_color_default": "Varsayılan",
+  "com_nav_chat_color_blue": "Mavi",
+  "com_nav_chat_color_green": "Yeşil",
+  "com_nav_chat_color_yellow": "Sarı",
+  "com_nav_chat_color_pink": "Pembe",
+  "com_nav_chat_color_orange": "Turuncu",
+  "com_nav_chat_color_purple": "Mor"
 }

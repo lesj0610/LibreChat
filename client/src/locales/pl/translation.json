@@ -685,5 +685,13 @@
   "com_ui_weekend_morning": "Udanego weekendu",
   "com_ui_yes": "Tak",
   "com_ui_zoom": "Powiększ",
-  "com_user_message": "Ty"
+  "com_user_message": "Ty",
+  "com_nav_chat_color": "Kolor czatu",
+  "com_nav_chat_color_default": "Domyślny",
+  "com_nav_chat_color_blue": "Niebieski",
+  "com_nav_chat_color_green": "Zielony",
+  "com_nav_chat_color_yellow": "Żółty",
+  "com_nav_chat_color_pink": "Różowy",
+  "com_nav_chat_color_orange": "Pomarańczowy",
+  "com_nav_chat_color_purple": "Fioletowy"
 }

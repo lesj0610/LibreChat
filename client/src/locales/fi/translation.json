@@ -576,5 +576,13 @@
   "com_ui_version_var": "Versio {{0}}",
   "com_ui_versions": "Versiot",
   "com_ui_yes": "Kyllä",
-  "com_user_message": "Sinä"
+  "com_user_message": "Sinä",
+  "com_nav_chat_color": "Keskustelun väri",
+  "com_nav_chat_color_default": "Oletus",
+  "com_nav_chat_color_blue": "Sininen",
+  "com_nav_chat_color_green": "Vihreä",
+  "com_nav_chat_color_yellow": "Keltainen",
+  "com_nav_chat_color_pink": "Vaaleanpunainen",
+  "com_nav_chat_color_orange": "Oranssi",
+  "com_nav_chat_color_purple": "Violetti"
 }

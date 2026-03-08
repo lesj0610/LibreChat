@@ -1056,5 +1056,13 @@
   "com_ui_x_selected": "{{0}}개 선택됨",
   "com_ui_yes": "네",
   "com_ui_zoom": "확대/축소",
-  "com_user_message": "당신"
+  "com_user_message": "당신",
+  "com_nav_chat_color": "채팅 컬러",
+  "com_nav_chat_color_default": "기본값",
+  "com_nav_chat_color_blue": "블루",
+  "com_nav_chat_color_green": "그린",
+  "com_nav_chat_color_yellow": "옐로",
+  "com_nav_chat_color_pink": "핑크",
+  "com_nav_chat_color_orange": "오렌지",
+  "com_nav_chat_color_purple": "퍼플"
 }

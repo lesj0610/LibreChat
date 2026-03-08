@@ -17,10 +17,14 @@ export type UserBubbleTheme = (typeof USER_BUBBLE_THEMES)[number];
 
 const validUserBubbleThemes = new Set<string>(USER_BUBBLE_THEMES);
 
+export function isUserBubbleTheme(theme: string): theme is UserBubbleTheme {
+  return validUserBubbleThemes.has(theme);
+}
+
 export function applyUserBubbleTheme(theme: UserBubbleTheme | string): void {
   const root = document.documentElement;
 
-  if (!validUserBubbleThemes.has(theme) || theme === DEFAULT_USER_BUBBLE_THEME) {
+  if (!isUserBubbleTheme(theme) || theme === DEFAULT_USER_BUBBLE_THEME) {
     delete root.dataset.userBubbleTheme;
     return;
   }

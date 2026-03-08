@@ -1289,13 +1289,5 @@
   "com_ui_zoom_in": "放大",
   "com_ui_zoom_level": "缩放级别",
   "com_ui_zoom_out": "缩小",
-  "com_user_message": "您",
-  "com_nav_chat_color": "聊天颜色",
-  "com_nav_chat_color_default": "默认",
-  "com_nav_chat_color_blue": "蓝色",
-  "com_nav_chat_color_green": "绿色",
-  "com_nav_chat_color_yellow": "黄色",
-  "com_nav_chat_color_pink": "粉色",
-  "com_nav_chat_color_orange": "橙色",
-  "com_nav_chat_color_purple": "紫色"
+  "com_user_message": "您"
 }

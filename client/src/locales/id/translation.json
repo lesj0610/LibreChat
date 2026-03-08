@@ -271,13 +271,5 @@
   "com_ui_upload": "Unggah",
   "com_ui_upload_error": "Ada kesalahan saat mengunggah file Anda",
   "com_ui_upload_success": "Berhasil mengunggah file",
-  "com_user_message": "Kamu",
-  "com_nav_chat_color": "Warna chat",
-  "com_nav_chat_color_default": "Bawaan",
-  "com_nav_chat_color_blue": "Biru",
-  "com_nav_chat_color_green": "Hijau",
-  "com_nav_chat_color_yellow": "Kuning",
-  "com_nav_chat_color_pink": "Merah muda",
-  "com_nav_chat_color_orange": "Oranye",
-  "com_nav_chat_color_purple": "Ungu"
+  "com_user_message": "Kamu"
 }

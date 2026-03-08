@@ -783,13 +783,5 @@
   "com_ui_x_selected": "{{0}} seleccionado",
   "com_ui_yes": "Sí",
   "com_ui_zoom": "Zoom",
-  "com_user_message": "Usted",
-  "com_nav_chat_color": "Color del chat",
-  "com_nav_chat_color_default": "Predeterminado",
-  "com_nav_chat_color_blue": "Azul",
-  "com_nav_chat_color_green": "Verde",
-  "com_nav_chat_color_yellow": "Amarillo",
-  "com_nav_chat_color_pink": "Rosa",
-  "com_nav_chat_color_orange": "Naranja",
-  "com_nav_chat_color_purple": "Morado"
+  "com_user_message": "Usted"
 }

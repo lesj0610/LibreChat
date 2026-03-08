@@ -1269,13 +1269,5 @@
   "com_ui_zoom_in": "Увеличить",
   "com_ui_zoom_level": "Масштаб",
   "com_ui_zoom_out": "Уменьшить",
-  "com_user_message": "Вы",
-  "com_nav_chat_color": "Цвет чата",
-  "com_nav_chat_color_default": "По умолчанию",
-  "com_nav_chat_color_blue": "Синий",
-  "com_nav_chat_color_green": "Зелёный",
-  "com_nav_chat_color_yellow": "Жёлтый",
-  "com_nav_chat_color_pink": "Розовый",
-  "com_nav_chat_color_orange": "Оранжевый",
-  "com_nav_chat_color_purple": "Фиолетовый"
+  "com_user_message": "Вы"
 }

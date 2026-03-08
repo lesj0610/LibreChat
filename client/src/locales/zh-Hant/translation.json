@@ -893,13 +893,5 @@
   "com_ui_weekend_morning": "週末愉快",
   "com_ui_yes": "是",
   "com_ui_zoom": "縮放",
-  "com_user_message": "您",
-  "com_nav_chat_color": "聊天顏色",
-  "com_nav_chat_color_default": "預設",
-  "com_nav_chat_color_blue": "藍色",
-  "com_nav_chat_color_green": "綠色",
-  "com_nav_chat_color_yellow": "黃色",
-  "com_nav_chat_color_pink": "粉紅色",
-  "com_nav_chat_color_orange": "橙色",
-  "com_nav_chat_color_purple": "紫色"
+  "com_user_message": "您"
 }

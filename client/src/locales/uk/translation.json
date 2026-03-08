@@ -1229,13 +1229,5 @@
   "com_ui_x_selected": "Обрано {{0}}",
   "com_ui_yes": "Так",
   "com_ui_zoom": "Масштаб",
-  "com_user_message": "Ви",
-  "com_nav_chat_color": "Колір чату",
-  "com_nav_chat_color_default": "Типовий",
-  "com_nav_chat_color_blue": "Синій",
-  "com_nav_chat_color_green": "Зелений",
-  "com_nav_chat_color_yellow": "Жовтий",
-  "com_nav_chat_color_pink": "Рожевий",
-  "com_nav_chat_color_orange": "Помаранчевий",
-  "com_nav_chat_color_purple": "Фіолетовий"
+  "com_user_message": "Ви"
 }

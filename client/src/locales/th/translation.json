@@ -842,13 +842,5 @@
   "com_ui_x_selected": "{{0}} เลือก",
   "com_ui_yes": "ใช่",
   "com_ui_zoom": "ซูม",
-  "com_user_message": "คุณ",
-  "com_nav_chat_color": "สีแชต",
-  "com_nav_chat_color_default": "ค่าเริ่มต้น",
-  "com_nav_chat_color_blue": "สีน้ำเงิน",
-  "com_nav_chat_color_green": "สีเขียว",
-  "com_nav_chat_color_yellow": "สีเหลือง",
-  "com_nav_chat_color_pink": "สีชมพู",
-  "com_nav_chat_color_orange": "สีส้ม",
-  "com_nav_chat_color_purple": "สีม่วง"
+  "com_user_message": "คุณ"
 }

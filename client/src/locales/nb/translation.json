@@ -1382,13 +1382,5 @@
   "com_ui_x_selected": "{{0}} valgt",
   "com_ui_yes": "Ja",
   "com_ui_zoom": "Zoom",
-  "com_user_message": "Du",
-  "com_nav_chat_color": "Chatfarge",
-  "com_nav_chat_color_default": "Standard",
-  "com_nav_chat_color_blue": "Blå",
-  "com_nav_chat_color_green": "Grønn",
-  "com_nav_chat_color_yellow": "Gul",
-  "com_nav_chat_color_pink": "Rosa",
-  "com_nav_chat_color_orange": "Oransje",
-  "com_nav_chat_color_purple": "Lilla"
+  "com_user_message": "Du"
 }

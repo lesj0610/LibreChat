@@ -8,7 +8,12 @@ import ToggleSwitch from '../ToggleSwitch';
 import { useLocalize } from '~/hooks';
 import type { Option } from '~/common';
 import store from '~/store';
-import { userBubbleThemeAtom, USER_BUBBLE_THEMES, type UserBubbleTheme } from '~/store/userBubbleTheme';
+import {
+  isUserBubbleTheme,
+  userBubbleThemeAtom,
+  USER_BUBBLE_THEMES,
+  type UserBubbleTheme,
+} from '~/store/userBubbleTheme';
 
 const toggleSwitchConfigs = [
   {
@@ -195,7 +200,11 @@ export const UserBubbleThemeSelector = ({ portal = true }: { portal?: boolean })
 
       <Dropdown
         value={userBubbleTheme}
-        onChange={(value) => setUserBubbleTheme(value as UserBubbleTheme)}
+        onChange={(value) => {
+          if (isUserBubbleTheme(value)) {
+            setUserBubbleTheme(value);
+          }
+        }}
         options={options}
         sizeClasses="w-[180px]"
         testId="user-bubble-theme-selector"
@@ -204,8 +213,8 @@ export const UserBubbleThemeSelector = ({ portal = true }: { portal?: boolean })
         portal={portal}
         renderValue={(option: Option) => (
           <span className="inline-flex items-center gap-2">
-            {'icon' in option && option.icon != null && <span>{option.icon as React.ReactNode}</span>}
-            <span>{option.label as string}</span>
+            {'icon' in option && option.icon != null ? <span>{option.icon}</span> : null}
+            {typeof option.label === 'string' ? option.label : String(option.label ?? '')}
           </span>
         )}
       />

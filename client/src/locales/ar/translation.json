@@ -696,13 +696,5 @@
   "com_ui_versions": "الإصدارات",
   "com_ui_yes": "نعم",
   "com_ui_zoom": "تكبير",
-  "com_user_message": "أنت",
-  "com_nav_chat_color": "لون الدردشة",
-  "com_nav_chat_color_default": "الافتراضي",
-  "com_nav_chat_color_blue": "أزرق",
-  "com_nav_chat_color_green": "أخضر",
-  "com_nav_chat_color_yellow": "أصفر",
-  "com_nav_chat_color_pink": "وردي",
-  "com_nav_chat_color_orange": "برتقالي",
-  "com_nav_chat_color_purple": "بنفسجي"
+  "com_user_message": "أنت"
 }

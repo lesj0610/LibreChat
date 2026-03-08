@@ -33,13 +33,5 @@
   "com_ui_scope": "Obseg",
   "com_ui_sign_in_to_domain": "Prijava v {{0}}",
   "com_ui_token_exchange_method": "Metoda izmenjave žetonov",
-  "com_ui_token_url": "URL žetona",
-  "com_nav_chat_color": "Barva klepeta",
-  "com_nav_chat_color_default": "Privzeto",
-  "com_nav_chat_color_blue": "Modra",
-  "com_nav_chat_color_green": "Zelena",
-  "com_nav_chat_color_yellow": "Rumena",
-  "com_nav_chat_color_pink": "Roza",
-  "com_nav_chat_color_orange": "Oranžna",
-  "com_nav_chat_color_purple": "Vijolična"
+  "com_ui_token_url": "URL žetona"
 }

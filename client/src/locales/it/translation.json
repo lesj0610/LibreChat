@@ -882,13 +882,5 @@
   "com_ui_write": "Scrittura",
   "com_ui_yes": "Sì",
   "com_ui_zoom": "Zoom",
-  "com_user_message": "Mostra nome utente nei messaggi",
-  "com_nav_chat_color": "Colore chat",
-  "com_nav_chat_color_default": "Predefinito",
-  "com_nav_chat_color_blue": "Blu",
-  "com_nav_chat_color_green": "Verde",
-  "com_nav_chat_color_yellow": "Giallo",
-  "com_nav_chat_color_pink": "Rosa",
-  "com_nav_chat_color_orange": "Arancione",
-  "com_nav_chat_color_purple": "Viola"
+  "com_user_message": "Mostra nome utente nei messaggi"
 }

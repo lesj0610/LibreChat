@@ -1208,13 +1208,5 @@
   "com_ui_x_selected": "{{0}} selecionado",
   "com_ui_yes": "Sim",
   "com_ui_zoom": "Ampliar",
-  "com_user_message": "Você",
-  "com_nav_chat_color": "Cor do chat",
-  "com_nav_chat_color_default": "Predefinido",
-  "com_nav_chat_color_blue": "Azul",
-  "com_nav_chat_color_green": "Verde",
-  "com_nav_chat_color_yellow": "Amarelo",
-  "com_nav_chat_color_pink": "Rosa",
-  "com_nav_chat_color_orange": "Laranja",
-  "com_nav_chat_color_purple": "Roxo"
+  "com_user_message": "Você"
 }

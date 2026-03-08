@@ -801,13 +801,5 @@
   "com_ui_write": "Írás",
   "com_ui_yes": "Igen",
   "com_ui_zoom": "Zoom",
-  "com_user_message": "Ön",
-  "com_nav_chat_color": "Csevegés színe",
-  "com_nav_chat_color_default": "Alapértelmezett",
-  "com_nav_chat_color_blue": "Kék",
-  "com_nav_chat_color_green": "Zöld",
-  "com_nav_chat_color_yellow": "Sárga",
-  "com_nav_chat_color_pink": "Rózsaszín",
-  "com_nav_chat_color_orange": "Narancs",
-  "com_nav_chat_color_purple": "Lila"
+  "com_user_message": "Ön"
 }

@@ -219,6 +219,78 @@ html {
   --user-message-border: #435066;
 }
 
+html[data-user-bubble-theme='blue'],
+.gizmo[data-user-bubble-theme='blue'] {
+  --user-message-bg: #dbeafe;
+  --user-message-border: #93c5fd;
+}
+
+html.dark[data-user-bubble-theme='blue'],
+.gizmo.dark[data-user-bubble-theme='blue'] {
+  --user-message-bg: #204c8c;
+  --user-message-border: #3b82f6;
+}
+
+html[data-user-bubble-theme='green'],
+.gizmo[data-user-bubble-theme='green'] {
+  --user-message-bg: #dcfce7;
+  --user-message-border: #86efac;
+}
+
+html.dark[data-user-bubble-theme='green'],
+.gizmo.dark[data-user-bubble-theme='green'] {
+  --user-message-bg: #1d5a3b;
+  --user-message-border: #22c55e;
+}
+
+html[data-user-bubble-theme='yellow'],
+.gizmo[data-user-bubble-theme='yellow'] {
+  --user-message-bg: #fef3c7;
+  --user-message-border: #fcd34d;
+}
+
+html.dark[data-user-bubble-theme='yellow'],
+.gizmo.dark[data-user-bubble-theme='yellow'] {
+  --user-message-bg: #6d5510;
+  --user-message-border: #eab308;
+}
+
+html[data-user-bubble-theme='pink'],
+.gizmo[data-user-bubble-theme='pink'] {
+  --user-message-bg: #fce7f3;
+  --user-message-border: #f9a8d4;
+}
+
+html.dark[data-user-bubble-theme='pink'],
+.gizmo.dark[data-user-bubble-theme='pink'] {
+  --user-message-bg: #7e2f59;
+  --user-message-border: #ec4899;
+}
+
+html[data-user-bubble-theme='orange'],
+.gizmo[data-user-bubble-theme='orange'] {
+  --user-message-bg: #ffedd5;
+  --user-message-border: #fdba74;
+}
+
+html.dark[data-user-bubble-theme='orange'],
+.gizmo.dark[data-user-bubble-theme='orange'] {
+  --user-message-bg: #8a4211;
+  --user-message-border: #f97316;
+}
+
+html[data-user-bubble-theme='purple'],
+.gizmo[data-user-bubble-theme='purple'] {
+  --user-message-bg: #ede9fe;
+  --user-message-border: #c4b5fd;
+}
+
+html.dark[data-user-bubble-theme='purple'],
+.gizmo.dark[data-user-bubble-theme='purple'] {
+  --user-message-bg: #5b34a4;
+  --user-message-border: #8b5cf6;
+}
+
 .text-token-text-primary {
   color: #171717;
   color: var(--text-primary);
